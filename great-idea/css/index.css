@@ -153,7 +153,6 @@ h5 {
 main {
   width: 800px;
   margin: 0 auto;
-  /* border: 1px solid red; */
   padding: 5px 30px;
 }
 
@@ -162,16 +161,11 @@ p {
 }
 
 header {
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 4px;
 }
-
-/* .headernav {
-  border: 1px solid blue;
-} */
 
 .headernav a {
   text-decoration: none;
@@ -179,12 +173,7 @@ header {
   margin-right: 30px;
 }
 
-/* .headerlogo {
-  border: 1px solid blue;
-} */
-
 .banner {
-  /* border: 1px solid green; */
   margin-bottom: 20px;
 }
 
@@ -194,15 +183,14 @@ header {
 }
 
 .intro {
-  /* border: 1px solid green; */
-  margin-bottom: 4px;
+  margin-bottom: 12px;
+  padding-bottom: 4px;
   border-bottom: 1.5px solid black;
 }
 
 .middle {
-  /* border: 1px solid green; */
   margin-bottom: 4px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -210,9 +198,11 @@ header {
 }
 
 .content {
-  /* border: 1px solid blue; */
+  border: 1px solid black;
   width: 48%;
   margin: 12px 0;
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
 }
 
 .content button {
@@ -224,7 +214,6 @@ header {
 }
 
 .lower {
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-between;
   margin-top: 20px; 
@@ -232,7 +221,6 @@ header {
 }
 
 .contact {
-  /* border: 1px solid blue; */
   width: 48%;
 }
 
@@ -250,7 +238,5 @@ li {
 }
 
 footer {
-	/* border: 1px solid green; */
 	text-align: center;
-	
 }
